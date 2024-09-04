@@ -17,7 +17,7 @@ darkMode.onclick = function(){
 if(localStorage.getItem("theme") == "light"){
 
   darkMode.classList.remove("dark-btn-on");
-  document.body.classList.add("dark-theme");
+  document.body.classList.remove("dark-theme");
 
 }else if(localStorage.getItem("theme") == "dark"){
 
@@ -30,4 +30,4 @@ if(localStorage.getItem("theme") == "light"){
 }
 /* FIM ARMAZENAMENTO DE COR EM MEMORIA */
 
-/*FIM BOTAO DARK MODE */
+/* FIM BOTAO DARK MODE */
